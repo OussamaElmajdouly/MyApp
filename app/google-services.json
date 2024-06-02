@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "4601745586",
+    "project_id": "sydicat-6cbd0",
+    "storage_bucket": "sydicat-6cbd0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:4601745586:android:b8fa695b3a7fe8723439ab",
+        "android_client_info": {
+          "package_name": "com.example.myapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKDXC0oNzEVFVwhzgE0XBPYxosXAg7y4E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@drawable/maroc"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- ScrollView pour permettre le défilement -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- Image du logo -->
+            <ImageView
+                android:id="@+id/logoImageView"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/palestine"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp"/>
+
+            <!-- Texte de l'histoire -->
+            <TextView
+                android:id="@+id/histoireTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/logoImageView"
+                android:text="Le Maroc, situé à la pointe nord-ouest de l'Afrique, possède une histoire riche et diversifiée qui remonte à plusieurs millénaires. L'histoire du Maroc a été façonnée par une multitude de civilisations, de cultures et d'événements, ce qui en fait une terre d'une grande importance historique.
+
+Les premières traces d'occupation humaine au Maroc remontent à la Préhistoire, avec des peintures rupestres datant de plusieurs milliers d'années. Au fil du temps, le territoire marocain a été habité par diverses populations, notamment les Berbères, les Phéniciens, les Carthaginois, les Romains, les Vandales, les Byzantins et les Arabes.
+
+L'islamisation du Maroc a eu lieu au cours du VIIIe siècle, lorsque les troupes musulmanes ont conquis la région. Par la suite, le Maroc est devenu un centre important de la civilisation islamique, avec des dynasties successives qui ont marqué l'histoire du pays, telles que les Almoravides, les Almohades, les Mérinides et les Saadiens.
+
+Au cours des siècles suivants, le Maroc a été le théâtre de diverses influences étrangères, notamment européennes, en raison de sa position stratégique sur les routes commerciales entre l'Europe, l'Afrique et le Moyen-Orient. Cela a conduit à des périodes de domination étrangère, notamment par les Portugais et les Espagnols.
+
+Au XIXe siècle, le Maroc a été le théâtre de rivalités entre les grandes puissances coloniales européennes, principalement la France et l'Espagne. Finalement, le Maroc est devenu un protectorat français et espagnol en 1912, jusqu'à son indépendance en 1956.
+
+Depuis lors, le Maroc a connu des périodes de stabilité politique et de développement économique, mais aussi des défis sociaux et politiques. Le pays a joué un rôle actif sur la scène internationale et reste un carrefour culturel dynamique entre l'Afrique, l'Europe et le monde arabe."
+                android:textSize="18sp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="20dp"/>
+
+        </RelativeLayout>
+    </ScrollView>
+    </ScrollView>
+
+
